@@ -52,7 +52,7 @@ class PlayerView extends Component<PlayerViewProps, PlayerViewState> {
                     >{ player.number }</div>
 
                     <div
-                        className="name"
+                        className="name font-bold"
                         style={ { color: player.nameColor } }
                     >{ player.name }</div>
 
